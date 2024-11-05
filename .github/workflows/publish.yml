@@ -18,7 +18,7 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@organizationName'
       - name: Install dependencies
-        run: npm
+        run: npm i
       - name: Publish package
         run: npm publish --access restricted
         env:
