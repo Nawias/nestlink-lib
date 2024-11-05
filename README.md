@@ -1,14 +1,13 @@
 # NestLink - A Debugging Library for TCP Connections
 
-`NestLink` is a lightweight debugging library for managing TCP connections, sending Lua commands, and handling real-time communication with a server. It provides an easy-to-use interface for connecting to a TCP socket, sending and receiving data, and interacting with Lua-based servers.
+`NestLink` is a lightweight debugging library for managing TCP connections, sending Lua commands, and handling real-time communication with LÖVE Potion for debugging purposes. It provides an easy-to-use interface for connecting to a TCP socket, sending and receiving data, and interacting with the console.
 
 ## Features
 
-- **TCP Connection Management**: Easily establish and manage TCP connections with a server.
+- **TCP Connection Management**: Easily establish and manage TCP connections with the debug target.
 - **Real-time Data Handling**: Subscribe to events and handle incoming data in real-time.
-- **Lua Code Execution**: Send Lua code to a server and print global variables.
+- **Lua Code Execution**: Send Lua code to the debug target and print global variables.
 - **Global Variable Inspection**: Query and print global variables from a Lua environment.
-- **Event System**: A custom signal-based event system for subscribing and handling real-time data events.
 
 ## Installation
 
