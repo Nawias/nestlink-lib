@@ -1,4 +1,4 @@
-# NestLink - A Debugging Library for TCP Connections
+# NestLink - Debugging library for LÖVE Potion
 
 `NestLink` is a lightweight debugging library for managing TCP connections, sending Lua commands, and handling real-time communication with LÖVE Potion for debugging purposes. It provides an easy-to-use interface for connecting to a TCP socket, sending and receiving data, and interacting with the console.
 

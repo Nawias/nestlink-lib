@@ -1,0 +1,39 @@
+{
+  "name": "nestlink-lib",
+  "version": "0.8.0",
+  "description": "Debugging library for LÖVE Potion",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+      "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nawias/nestlink-lib.git"
+  },
+  "keywords": [
+    "lua",
+    "love",
+    "lovepotion"
+  ],
+  "author": "Nawias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nawias/nestlink-lib/issues"
+  },
+  "homepage": "https://github.com/Nawias/nestlink-lib#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@kilcekru/lua-table": "^1.1.2",
+    "pocket-sockets": "^4.0.0"
+  }
+}
