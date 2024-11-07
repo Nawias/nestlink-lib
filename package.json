@@ -1,6 +1,6 @@
 {
   "name": "@Nawias/nestlink-lib",
-  "version": "0.8.1",
+  "version": "0.8.5",
   "description": "Debugging library for LÖVE Potion",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@kilcekru/lua-table": "^1.1.2",
+    "browser-socket": "^1.0.1",
     "pocket-sockets": "^4.0.0"
   }
 }

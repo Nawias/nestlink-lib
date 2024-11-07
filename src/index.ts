@@ -1,5 +1,5 @@
-import { TCPClient } from "pocket-sockets";
 import {parse} from '@kilcekru/lua-table'
+import { BrowserTCPClient } from './BrowserTCPClient';
 
 type ConnectionConfig = {host: string, port:number}
 
@@ -19,7 +19,7 @@ class Signal<DataType> {
 }
 
 export class Connection {
-  private _client: TCPClient;
+  private _client: BrowserTCPClient;
   private _globals: any | "REFRESHING";
   get globals(): any {
     return this._globals;
@@ -27,7 +27,7 @@ export class Connection {
   private _onGlobals : Signal<string>
 
   constructor(config: ConnectionConfig) {
-    this._client = new TCPClient({
+    this._client = new BrowserTCPClient({
       port: config.port,
       host: config.host,
       textMode: true,
